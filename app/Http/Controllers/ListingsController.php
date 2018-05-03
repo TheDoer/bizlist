@@ -51,6 +51,7 @@ class ListingsController extends Controller
         $listing->website = $request->input('website');
         $listing->email = $request->input('email');
         $listing->phone = $request->input('phone');
+        $listing->category = $request->input('category');
         $listing->address = $request->input('address');
         $listing->products = $request->input('products');
         $listing->bio = $request->input('bio');

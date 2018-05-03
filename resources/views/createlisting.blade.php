@@ -12,6 +12,7 @@
                 {{Form::bsText('website','',['placeholder' => 'Company Website'])}}
                 {{Form::bsText('email','',['placeholder' => 'Contact Email'])}}
                 {{Form::bsText('phone','',['placeholder' => 'Contact Phone'])}}
+                {{Form::bsText('category','',['placeholder' => 'Business Category'])}}
                 {{Form::bsText('products','',['placeholder'=>'Products'])}}
                 {{Form::bsText('address','',['placeholder' => 'Business Address'])}}
                 {{Form::bsTextArea('bio','',['placeholder' => 'About This Business'])}}
