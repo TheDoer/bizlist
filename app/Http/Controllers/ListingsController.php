@@ -52,6 +52,7 @@ class ListingsController extends Controller
         $listing->email = $request->input('email');
         $listing->phone = $request->input('phone');
         $listing->address = $request->input('address');
+        $listing->products = $request->input('products');
         $listing->bio = $request->input('bio');
         $listing->user_id = auth()->user()->id;
 

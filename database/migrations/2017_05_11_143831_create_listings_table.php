@@ -21,6 +21,7 @@ class CreateListingsTable extends Migration
             $table->string('website');
             $table->string('email');
             $table->string('phone');
+            $table->string('products');
             $table->string('bio');
             $table->timestamps();
         });

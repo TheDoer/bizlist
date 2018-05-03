@@ -12,6 +12,7 @@
                 <li class="list-group-item">Website: <a href="{{$listing->website}}" target="_blank">{{$listing->website}}</a></li>
                 <li class="list-group-item">Email: {{$listing->email}}</li>
                 <li class="list-group-item">Phone: {{$listing->phone}}</li>
+                <li class="list-group-item">Products: {{$listing->products}}</li>
               </ul>
               <hr>
               <div class="well">
