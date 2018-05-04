@@ -10,7 +10,8 @@
                     @if(count($listings))
                         <ul class="list-group">
                           @foreach($listings as $listing)
-                            <li class="list-group-item"><a href="/listings/{{$listing->id}}">{{$listing->name}}</a></li>
+                            <li class="list-group-item">
+                                <a href="/listings/{{$listing->id}}">{{$listing->name}}</a></li>
                           @endforeach
                         </ul>
                     @else
